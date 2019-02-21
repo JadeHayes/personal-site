@@ -1,0 +1,264 @@
+#sidebar{
+    background: rgb(0,139,139, .8);
+    width: 26em;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#whistler-info{
+  font-size: 18px;
+}
+
+
+#whistler-title{
+  margin-bottom: 1em;
+}
+
+#demo-button{
+  margin-top: 3em;
+}
+
+.quid{
+  font-size: 16px;
+  margin-right: 1px;
+  margin-left: 1px;
+}
+
+#hackbright-logo{
+  width: 5em;
+  display: inline-block;
+  margin-bottom: 6em;
+  margin-right: -10px;
+  margin-left: 2em;
+}
+
+#sfsu-logo{
+  width: 7em;
+  display: inline-block;
+  margin-bottom: 6em;
+  margin-right: -10px;
+  margin-left: 1em;
+}
+
+#muaythai{
+  margin-top: 5px;
+}
+
+.jumbotron p{
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.project-intro{
+  font-size: 16px;
+}
+
+.ed{
+  margin-bottom: 1em;
+}
+.apis{
+  margin-left: 4em;
+}
+
+.mtn-photo{
+  display: block;
+  margin-bottom: 3em;
+  width: 36em;
+  margin-left: auto;
+  margin-right: auto;
+  padding:8px;
+  border:8px solid #FFFFFF;
+}
+
+.aboutme{
+  font-size: 16px;
+  text-transform: none;
+}
+
+.main {
+    margin-left: 26em; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
+
+.navs{
+  margin-top: 40px;
+  margin-left: -30px;
+}
+
+.degree{
+  margin-left: 30px;
+  display: inline-block;
+}
+
+.level-title{
+  margin-left: 30px;
+}
+
+.langs{
+  display: inline-block;
+  width: 6em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 2em;
+}
+
+#html_css_js{
+  width: 18em;
+}
+
+#flask{
+  width: 18em;
+}
+
+#python{
+  width: 12em;
+}
+
+.job-title{
+  color: rgb(0,139,139, .9);
+}
+
+.nav-item-link{
+    color: rgb(0,139,139, .9);
+}
+
+.logos{
+    height: 4em;
+}
+
+.page-content-wrapper{
+    margin-left: 2em;
+}
+
+.headshot{
+    margin-top: 6em;
+    margin-bottom: 1em;
+}
+
+.muaythai-news{
+    height: 18em;
+    border-radius: 50%;
+
+}
+
+#sfawakening{
+  width: 16em;
+  margin-left: -1em;
+}
+
+#usavchina{
+  width: 20em;
+  margin-right: 1em;
+}
+
+#teamusa{
+  width: 12em;
+  height:18em;
+  margin-left: 1em;
+
+}
+
+.titles{
+  margin-bottom: 2em;
+  margin-top: 1em;
+}
+
+.newstitle{
+    font-size: 18px;
+}
+
+.details{
+    margin-left: 2em;
+}
+
+body{
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  padding-top: 54px;
+  color: #404040;
+}
+
+.interests{
+  margin-left: 30px;
+  margin-top: 2em;
+}
+
+.tagline{
+    color: #170b00;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Saira Extra Condensed', serif;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.name {
+    color: white;
+}
+
+.linkedin-button{
+    margin-left: -5px;
+}
+
+li{
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #343a40;
+}
+
+
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+.headshot{
+    width: 14em;
+    height: 14em;
+}
+
+a {
+  color: #003636;
+  font-style: bold;
+  font-size: 28px;
+  margin: 10px;
+  margin-top: 15px;
+}
+
+.mtvideo{
+  margin: 2em;
+}
+
+a:hover, a:focus, a:active {
+  color: #006060;
+  font-style: italic;
+}
+
+.navNames{
+    margin: 10px;
+}
+
+.contactme{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
