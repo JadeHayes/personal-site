@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Domino Tech Stack</title>
+	<title>Tech Stack</title>
 	<style>
 		html, body {
 			padding: 0;
@@ -43,12 +43,12 @@
 			opacity: 0.5;
 		}
 		.legend-size circle {
-			fill: rgb(31, 119, 180);
+			fill: rgb(68, 150, 208);
 		}
 	</style>
 </head>
 <body>
-	<h1>Domino Technologies Stack</h1>
+	<h1>Tech Stack</h1>
 	<svg width="100%" height="700" font-family="sans-serif" font-size="10" text-anchor="middle"></svg>
 	<script type = "text/javascript"
 			src = "{{ url_for('static', filename = 'd3.min.js') }}" ></script>
@@ -60,21 +60,12 @@
 		// And this Forced directed diagram https://bl.ocks.org/mbostock/4062045
 	let	data = [{
 		cat: 'platform',
-		desc: `We utilize many different pieces of Amazons cloud computing platforms. From
+		desc: `familiarity with different pieces of Amazons cloud computing platforms. From
 		Identity and Access Management (IAM) to their S3 storage buckets.
 		`,
 		icon: '../static/icons/aws.png',
 		name: 'AWS cloud services',
-		value: 100
-	},{
-		cat: 'framework',
-		desc: `Salt is a new approach to infrastructure management built on a dynamic communication bus.
-		Salt can be used for data-driven orchestration, remote execution for any infrastructure,
-		configuration management etc.
-		`,
-		icon: '../static/icons/salt.jpg',
-		name: 'Salt',
-		value: 90
+		value: 50
 	},{
 		cat: 'platform',
 		desc: `Vault is a tool for securely accessing secrets. A secret is anything that you want to tightly
@@ -83,16 +74,7 @@
 		`,
 		icon: '../static/icons/Vault.png',
 		name: 'Vault',
-		value: 10
-	},{
-		cat: 'framework',
-		desc: ` HashiCorp Terraform enables you to safely and predictably create, change, and improve infrastructure.
-		It is an open source tool that codifies APIs into declarative configuration files that can be shared amongst
-		team members, treated as code, edited, reviewed, and versioned.
-		`,
-		icon: '../static/icons/terraform.png',
-		name: 'Terraform',
-		value: 90
+		value: 40
 	},{
 		cat: 'platform',
 		desc: ` CircleCI is Continuous Integration, a development practice which is being used by software teams allowing
@@ -100,17 +82,7 @@
 		`,
 		icon: '../static/icons/circleci.png',
 		name: 'CircleCi',
-		value: 100
-	},{
-		cat: 'platform',
-		desc: ` Kubernetes (K8s) is an open-source container-orchestration system for automating deployment,
-		scaling and management of containerized applications.[4] It aims to provide a "platform for automating
-		deployment, scaling, and operations of application containers across clusters of hosts".
-		It works with a range of container tools, including Docker.
-		`,
-		icon: '../static/icons/kubernetes.png',
-		name: 'Kubernetes',
-		value: 90
+		value: 80
 	},{
 		cat: 'framework',
 		desc: `
@@ -133,53 +105,41 @@
 	}, {
 		cat: 'language',
 		desc: `
-		Python- you'll find all of our python code in platform apps.
+		I learned Python at Hackbright and continue to code in python daily at Domino Data lab.
 		`,
 		icon: '../static/icons/python.png',
 		name: 'Python',
-		value: 40,
-	}, {
-		cat: 'language',
-		desc: `
-		Scala- Most of our product backend is built with Scala.
-		`,
-		icon: '../static/icons/Scala_logo.png',
-		name: 'Scala',
-		value: 90,
+		value: 80,
 	}, {
 		cat: 'tooling',
 		desc: `
-		We often utilize Google Chrome to debug our apps. It is one the the most powerful
-		and sophisticated devtools available.
+		name: "Who doesn't love a good Google Chrome & Devtool debugging session?",
 		`,
 		icon: '../static/icons/chrome-devtools.svg',
-		name: 'Google Chrome & Devtool',
-		value: 20,
+		name: "Chrome & Devtools",
+		value: 70,
 	}, {
 		cat: 'tooling',
 		desc: `
-		Visual Studio Code is a cross-platform source code editor developed by Microsoft.
-		It includes support for debugging, embedded Git control, syntax highlighting,
-		intelligent code completion, snippets, and code refactoring.
+		Visual Studio Code for my frontend heavy projects(like this D3 map you're looking at)
 		`,
 		icon: '../static/icons/vscode.png',
 		name: 'Visual Studio Code',
-		value: 10,
+		value: 60,
 	}, {
 		cat: 'tooling',
 		desc: `
-		For most of our python code, PyCharm is a great editor. It provides smart code completion, code inspections, on-the-fly error
-		highlighting and quick-fixes, along with automated code refactorings and
-		rich navigation capabilities.
+		For most of our python code, PyCharm is a great editor. It's a little clunky but it's so nice to jump around
+		the code base with.
 	.
 		`,
 		icon: '../static/icons/PyCharm.png',
 		name: 'PyCharm',
-		value: 10,
+		value: 80,
 	},{
 		cat: 'tooling',
 		desc: `
-		Some of us love Vim.
+		Sometimes, I like Vim.
 		`,
 		icon: '../static/icons/Vim.png',
 		name: 'Vim',
@@ -187,24 +147,15 @@
 	}, {
 		cat: 'tooling',
 		desc: `
-		Command Line!
+		Command Line! Bash is great.  Check out the Bash Academy for a fun game to learn Bash https://www.bash.academy/.
 		`,
 		icon: '../static/icons/bash.png',
 		name: 'Bash',
-		value: 100,
+		value: 60,
 	},{
 		cat: 'backend',
 		desc: `
-		A specialized database software for high performance search queries.
-		`,
-		icon: '../static/icons/elastic.png',
-		name: 'Elastic Search',
-		value: 30,
-	},{
-		cat: 'backend',
-		desc: `
-		The de-facto Database solution for JavaScript and Node.js applications. It is a light weight,
-		high performance NoSQL database and can be used for small and large websites.
+		Mongo is great, I prefer it for smaller projects.  
 		`,
 		icon: '../static/icons/mongodb.png',
 		name: 'MongoDB',
@@ -212,16 +163,15 @@
 	}, {
 		cat: 'platform',
 		desc: `
-		Docker is an open-source project that automates the deployment of applications inside software containers.
-		At Domino, we're still learning this technology to later facilitate easy web app deployments.
+		At both Quid & Domino, I used docker-compose for our projects.  I like it so much, I added it here too.
 		`,
 		icon: '../static/icons/docker.svg',
-		name: 'Docker Platform',
+		name: 'Docker',
 		value: 100,
 	}, {
 		cat: 'language',
 		desc: `
-		A few of the languages of our products front end.
+		HTML5 & CSS for most of my projects.
 		`,
 		icon: '../static/icons/html5-css3.png',
 		name: 'HTML5 & CSS3',
@@ -229,26 +179,15 @@
 	}, {
 		cat: 'language',
 		desc: `
-		You may find some JavaScript code in our products frontend but we recently made the switch
-		over to TypeScript.
+		We learned a little bit of JS at hackbright and I use Javascript today, mainy for ajax requests.  
 		`,
 		icon: '../static/icons/javascript.png',
 		name: 'JavaScript',
-		value: 40,
+		value: 30,
 	}, {
 		cat: 'language',
 		desc: `
-		GraphQL is a data query language developed by Facebook publicly released in 2015.
-		It provides an alternative to REST and ad-hoc webservice architectures.
-		`,
-		icon: '../static/icons/graphql.svg',
-		name: 'GraphQL',
-		value: 20,
-	}, {
-		cat: 'language',
-		desc: `
-		The strict-typing flavor of ECMAScript, always requires a compiler to compile to vanilla JavaScript
-		but the type checking and other syntactical sugar are exceptional.
+		I learned Typescript while I was at Domino working on the product side. 
 		`,
 		icon: '../static/icons/typescript.png',
 		name: 'TypeScript 2',
@@ -256,20 +195,19 @@
 	}, {
 		cat: 'legacy tooling',
 		desc: `
-		Pre-commit hook for git, used in platform apps. Code validation should also be done
-		in the code editor.
-		`,
-		icon: '../static/icons/githook.png',
-		name: 'Git Pre-commit',
-		value: 40,
-	}, {
-		cat: 'legacy tooling',
-		desc: `
-		System of record for source code and pull requests, but we do not use it for tickets
-		(we use Jira for that).
+		System of record for all of the code.
 		`,
 		icon: '../static/icons/github.png',
 		name: 'GitHub',
+		value: 100,
+	},
+	{
+		cat: 'backend',
+		desc: `
+		Hackbright taught us SQL with SQL Alchemy, we used it for our final projects.
+		`,
+		icon: '../static/icons/sql.png',
+		name: 'SQL',
 		value: 100,
 	}
 ];
@@ -428,15 +366,6 @@
 			.style('font-size', '12px')
 			.call(legendSize);
 
-
-		/*
-		<foreignObject class="circle-overlay" x="10" y="10" width="100" height="150">
-			<div class="circle-overlay__inner">
-				<h2 class="circle-overlay__title">ReactJS</h2>
-				<p class="circle-overlay__body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, sunt, aspernatur. Autem repudiandae, laboriosam. Nulla quidem nihil aperiam dolorem repellendus pariatur, quaerat sed eligendi inventore ipsa natus fugiat soluta doloremque!</p>
-			</div>
-		</foreignObject>
-		*/
 		let infoBox = node.append('foreignObject')
 			.classed('circle-overlay hidden', true)
 			.attr('x', -350 * 0.5 * 0.8)
