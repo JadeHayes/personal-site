@@ -45,7 +45,22 @@ class Resume extends Component {
 
                             <section className="section experiences-section">
                                 <h2 id='resume' className="section-title"><i className="fa fa-briefcase"></i>Experience</h2>
-
+                                <div className="item">
+                                    <div className="meta">
+                                        <div className="upper-row">
+                                            <h3 className="job-title">Software Engineer</h3>
+                                            <div className="time">August 2018 - Current </div>
+                                        </div>
+                                        <div className="company">Domino Data Labs, San Francisco</div>
+                                    </div>
+                                    <div className="details">
+                                        <p>- Responsible for development and maintenance of fleet-command, our system for tracking, deploying and destroying company-wide instances of Domino.</p>
+                                        <p>- Integrated with Slack, Salesforce and Google API’s to automate updates within our system.</p>
+                                        <p>- Implemented Hashicorp’s Vault using the 3rd party hvac library, to track authorization of different
+                                            aws accounts.</p>
+                                        <p>- Technologies include Python, Flask, Docker, Typescript, Vault and React.</p>
+                                    </div>
+                                </div>
 
                                 <div className="item">
                                     <div className="meta">
@@ -58,7 +73,7 @@ class Resume extends Component {
                                     <div className="details">
                                         <p> - Quid is a platform that searches, analyzes and visualizes the world’s collective intelligence to help answer strategic questions.   </p>
                                         <p> - Project focused 9 week software engineering internship </p>
-                                        <p> - Technologies used include Docker, Python/Flask, Javascript/React/nodejs, ElasticSearch, Apache Spark, Apache Kafka </p>
+                                        <p> - Technologies used include Docker, Python/Flask, Javascript/React/nodejs, Docker-compose, RabbitMQ, pptx </p>
                                     </div>
                                 </div>
 
