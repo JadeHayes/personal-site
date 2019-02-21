@@ -22,8 +22,8 @@ ReactDOM.render(
     <div>
         <Route path='/' component={ App } />
         <Route exact path='/#home' component={ Home } />
-        <Route exact path='/#muaythai' component={ MuayThai } />
         <Route exact path='/#resume' component={ Resume } />
+        <Route exact path='/#muaythai' component={ MuayThai } />
         <Route exact path='/#projects' component={ Projects } />
         <Route exact path='/#outdoors' component={ Outdoors } />
     </div>

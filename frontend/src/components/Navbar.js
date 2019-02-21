@@ -10,6 +10,7 @@ import Home from './Home';
 import Resume from './Resume';
 import MuayThai from './MuayThai';
 import Projects from './Projects';
+import Footer from './Footer';
 
 import { Grid, Col, Row } from 'react-bootstrap';
 import { HashLink as Link } from 'react-router-hash-link';
@@ -36,8 +37,8 @@ class Navbar extends Component {
                     <div className="Nav-container container-block">
                         <ul className='navs'>
                             <li className='navNames'><Link smooth to="/#home">Home</Link></li>
-                            <li className='navNames'><Link smooth to="/#projects">Projects</Link></li>
                             <li className='navNames'><Link smooth to="/#resume">Resume</Link></li>
+                            <li className='navNames'><Link smooth to="/#projects">Projects</Link></li>
                             <li className='navNames'><Link smooth to="/#muaythai">Muay Thai</Link></li>
                         </ul>
                     </div>
@@ -56,11 +57,13 @@ class Navbar extends Component {
             </Col>
                 <Home />
                 <hr/>
-                <Projects />
-                <hr/>
                 <Resume />
                 <hr/>
+                <Projects />
+                <hr/>
                 <MuayThai />
+                <hr/>
+                <Footer />
                 </Row>
               </Grid>
             </div>
