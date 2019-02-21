@@ -25,7 +25,7 @@ class Projects extends Component {
             const { open } = this.state;
             return (<div className='main'  id='projects'>
                 <div className="jumbotron">
-                    <img src={mtn} className='mtn-photo text-center'></img>
+                    <img alt="mtn" src={mtn} className='mtn-photo text-center'></img>
                     <h2 className="text-center" id="whistler-title">WhistlerMTN</h2>
                     <p id="whistler-info">WBMTN is a tool for snow sports enthusiasts, to help
                     navigate their mountain adventure at Whistler Resort. After registering
@@ -75,7 +75,7 @@ class Projects extends Component {
                           <div className="text-center" id="demo-button">
                             <button className="btn btn-primary btn-lg" onClick={this.onOpenModal}> Demo </button>
                             <Modal open={open} onClose={this.onCloseModal} center>
-                              <iframe width="750" height="500" src="https://www.youtube.com/embed/6bfzZjoMN3k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                              <iframe title="whistler-project" width="750" height="500" src="https://www.youtube.com/embed/6bfzZjoMN3k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                             </Modal>
                           </div>
                         </div>

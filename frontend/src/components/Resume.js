@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Grid, Col, Row } from 'react-bootstrap';
 import linkedin from './../images/social/linkedin.png';
 import github from './../images/social/github.png';
 import hackbright from './../images/hackbright.png';
@@ -14,7 +13,6 @@ import postgres from './../images/resume_langs/postgresql-logo.png';
 import python from './../images/resume_langs/python.png';
 import react from './../images/resume_langs/react.png';
 
-
 class Resume extends Component {
     render() {
         return (
@@ -23,8 +21,8 @@ class Resume extends Component {
                         <div className="sidebar-wrapper">
                             <div className="profile-container">
 
-                                <a href='https://www.linkedin.com/in/jade-hayes/' className='linkedin-button'><span><img src={linkedin}/></span></a>
-                                <a href='https://github.com/JadeHayes' className='github-button'><span><img src={github}/></span></a>
+                                <a href='https://www.linkedin.com/in/jade-hayes/' className='linkedin-button'><span><img alt="Linkedin"  src={linkedin}/></span></a>
+                                <a href='https://github.com/JadeHayes' className='github-button'><span><img alt="github" src={github}/></span></a>
                                 <h3 className="tagline">
                                     Full Stack Developer</h3>
                             </div>
@@ -132,19 +130,19 @@ class Resume extends Component {
                                     <div className="item">
 
                                     <div className='text-center'>
-                                        <img id='python' className='langs' src= {python}/>
-                                        <img id='flask' className='langs' src= {flask}/>
-                                        <img id='html_css_js' className='langs' src= {html_css_js}/>
-                                        <img className='langs' src= {d3}/>
-                                        <img className='langs' src= {jquery}/>
-                                        <img className='langs' src= {postgres}/>
-                                        <img className='langs' src= {react}/>
+                                        <img alt="python" id='python' className='langs' src= {python}/>
+                                        <img alt="flask" id='flask' className='langs' src= {flask}/>
+                                        <img alt="html_css_js" id='html_css_js' className='langs' src= {html_css_js}/>
+                                        <img alt="d3" className='langs' src= {d3}/>
+                                        <img alt="jquery" className='langs' src= {jquery}/>
+                                        <img alt="postgres" className='langs' src= {postgres}/>
+                                        <img alt="react" className='langs' src= {react}/>
                                     </div>
                                         <div className="education-container container-block">
                                             <h2 className="container-block-title ed">Education</h2>
 
                                             <div>
-                                            <img id='hackbright-logo'src={hackbright}/>
+                                            <img alt="hackbright" id='hackbright-logo'src={hackbright}/>
                                             <div className="degree">
                                                 <h4 className="school">Full-time Software Engineering Program </h4>
                                                 <h5 className="meta">Hackbright Academy</h5>
@@ -152,7 +150,7 @@ class Resume extends Component {
                                             </div>
                                             </div>
 
-                                            <img id='sfsu-logo'src={sfsu}/>
+                                            <img alt="SFSU" id='sfsu-logo'src={sfsu}/>
                                             <div className="degree">
                                                 <h4 className="school">BA in Recreation, Travel & Tourism Management</h4>
                                                 <h5 className="meta">San Francisco State University</h5>

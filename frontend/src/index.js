@@ -5,7 +5,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import App from './App';
-import Modal from './components/Modal';
 import Home from './components/Home';
 import MuayThai from './components/MuayThai';
 import Projects from './components/Projects';
@@ -16,7 +15,6 @@ import Outdoors from './components/Outdoors';
 import {
     BrowserRouter as Router,
     Route,
-    Link
 } from 'react-router-dom';
 
 ReactDOM.render(

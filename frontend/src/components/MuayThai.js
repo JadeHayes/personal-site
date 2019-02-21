@@ -10,7 +10,7 @@ class MuayThai extends Component {
             <div className='main jumbotron' id='muaythai'><br/>
                 <h2> Jade Hayes<small> | Muay Thai </small></h2>
                     <div  className='mtvideo text-center'>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/h8e1G1h6U_I?start=70" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <iframe title="fight-video" width="560" height="315" src="https://www.youtube.com/embed/h8e1G1h6U_I?start=70" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
                 <p>
                     As Muay Thai competitor, I had the fortune of traveling and competing against talented
@@ -22,16 +22,16 @@ class MuayThai extends Component {
                     <Grid>
                         <Row>
                             <Col xs={4}>
-                                <img className='muaythai-news' id='sfawakening' src='https://sfbay.ca/home/wp-content/uploads/2013/10/131015_JadeHayes0150_1.jpg'/>
+                                <img alt="jade" className='muaythai-news' id='sfawakening' src='https://sfbay.ca/home/wp-content/uploads/2013/10/131015_JadeHayes0150_1.jpg'/>
                             </Col>
 
                             <Col xs={5}>
-                                <img className='muaythai-news' id='usavchina'src='https://www.awakeningfighters.com/wp-content/uploads/2017/12/jinlan-gong-vs-jade-hayes-at-wck-muay-thai-01-11-14.jpg'/>
+                                <img alt="jade" className='muaythai-news' id='usavchina'src='https://www.awakeningfighters.com/wp-content/uploads/2017/12/jinlan-gong-vs-jade-hayes-at-wck-muay-thai-01-11-14.jpg'/>
                             </Col>
 
 
                             <Col xs={3}>
-                                <img className='muaythai-news' id='teamusa' src='http://worldteamusa.com/wp-content/uploads/2017/07/jade-Hayes-1.jpg'/><br/>
+                                <img alt="jade" className='muaythai-news' id='teamusa' src='http://worldteamusa.com/wp-content/uploads/2017/07/jade-Hayes-1.jpg'/><br/>
                            </Col>
                        </Row>
 
