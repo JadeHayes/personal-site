@@ -9,6 +9,7 @@ import instagram from './../images/social/instagram.png';
 import Home from './Home';
 import Resume from './Resume';
 import MuayThai from './MuayThai';
+import TechStack from './TechStack';
 import Projects from './Projects';
 import Footer from './Footer';
 
@@ -37,6 +38,7 @@ class Navbar extends Component {
                     <div className="Nav-container container-block">
                         <ul className='navs'>
                             <li className='navNames'><Link smooth to="/#home">Home</Link></li>
+                            <li className='navNames'><Link smooth to="/#tech-stack">Tech Stack</Link></li>
                             <li className='navNames'><Link smooth to="/#resume">Resume</Link></li>
                             <li className='navNames'><Link smooth to="/#projects">Projects</Link></li>
                             <li className='navNames'><Link smooth to="/#muaythai">Muay Thai</Link></li>
@@ -56,6 +58,8 @@ class Navbar extends Component {
 
             </Col>
                 <Home />
+                <hr/>
+                <TechStack />
                 <hr/>
                 <Resume />
                 <hr/>

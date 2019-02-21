@@ -1,9 +1,4 @@
 import React, { Component } from 'react';
-import styled from 'styled-components';
-
-let intro = styled.div`
-    text-align: center;
-`;
 
 class Home extends Component {
     render() {
@@ -11,7 +6,7 @@ class Home extends Component {
             <div className='main'>
                     <h2> Jade Hayes<small> | FullStack Developer </small></h2>
                     <br/>
-                    <intro  className='aboutme' id='home'>
+                    <div  className='aboutme' id='home'>
                         <p> Hey! I'm Jade and I like to build stuff with code. </p>
                         <p> Before I entered the wonderful world of tech, I built thriving communities who shared
                             a passion for inspiring a generation of self-directed learners. These small but mighty
@@ -22,7 +17,7 @@ class Home extends Component {
                             <br/>
                         <p>  Thanks for dropping by, let's connect! </p>
 
-                    </intro>
+                    </div>
             </div>
 
     )}

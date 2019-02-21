@@ -23,6 +23,15 @@
   margin-top: 3em;
 }
 
+.bubbles {
+  height: 100vh;
+  margin: 0;
+}
+
+iframe {
+  border: 0
+ }
+ 
 .quid{
   font-size: 16px;
   margin-right: 1px;
