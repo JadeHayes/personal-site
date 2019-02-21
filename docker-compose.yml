@@ -15,9 +15,7 @@ services:
     build:
       context: backend
     environment:
-      - CONFLUENCE_URL=https://dominodatalab.atlassian.net/wiki
-      - CONFLUENCE_PASSWORD=$CONFLUENCE_PASSWORD
-      - CONFLUENCE_USERNAME=jade.hayes@dominodatalab.com
+      - EMAIL=jade.e.hayes@gmail.com
       - WERKZEUG_DEBUG_PIN="off"
     volumes:
       - "./backend:/app"
