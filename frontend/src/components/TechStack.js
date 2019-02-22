@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+// TODO: in production, try using docker.for.mac.host.internal
 
 class TechStack extends Component {
   render() {

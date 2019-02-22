@@ -10,7 +10,7 @@ class MuayThai extends Component {
             <div className='main jumbotron' id='muaythai'><br/>
                 <h2> Jade Hayes<small> | Muay Thai </small></h2>
                     <div  className='mtvideo text-center'>
-                        <iframe title="fight-video" width="560" height="315" src="https://www.youtube.com/embed/h8e1G1h6U_I?start=70" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <iframe title="fight-video" width="560" height="315" src="https://www.youtube.com/embed/h8e1G1h6U_I?start=70" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
                     </div>
                 <p>
                     As Muay Thai competitor, I had the fortune of traveling and competing against talented
