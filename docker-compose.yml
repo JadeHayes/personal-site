@@ -1,8 +1,8 @@
 version: "2"
 services:
-  frontend:
+  web:
     build:
-       context: frontend
+       context: web
     environment:
       - SERVER_URL=localhost:8080
     volumes:
