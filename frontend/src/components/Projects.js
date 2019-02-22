@@ -75,7 +75,7 @@ class Projects extends Component {
                           <div className="text-center" id="demo-button">
                             <button className="btn btn-primary btn-lg" onClick={this.onOpenModal}> Demo </button>
                             <Modal open={open} onClose={this.onCloseModal} center>
-                              <iframe title="whistler-project" width="750" height="500" src="https://www.youtube.com/embed/6bfzZjoMN3k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                              <iframe title="whistler-project" width="750" height="500" src="https://www.youtube.com/embed/6bfzZjoMN3k" frameborder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
                             </Modal>
                           </div>
                         </div>
