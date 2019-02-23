@@ -28,7 +28,6 @@ class Resume extends Component {
                             </div>
 
                         <div className="main-wrapper">
-
                             <section className="section summary-section">
                                 <h2 className="section-title"><i className="fa fa-user"></i>Career Profile</h2>
                                 <div className="summary">
@@ -140,47 +139,31 @@ class Resume extends Component {
                             </section>
                             <hr/>
                             <section className="skills-section section">
-                                <h2 className="section-title"><i className="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
-                                <div className="skillset">
-                                    <div className="item">
+                                <div className="item">
+                                    <div className="education-container container-block">
+                                        <h2 className="container-block-title ed">Education</h2>
 
-                                    <div className='text-center'>
-                                        <img alt="python" id='python' className='langs' src= {python}/>
-                                        <img alt="flask" id='flask' className='langs' src= {flask}/>
-                                        <img alt="html_css_js" id='html_css_js' className='langs' src= {html_css_js}/>
-                                        <img alt="d3" className='langs' src= {d3}/>
-                                        <img alt="jquery" className='langs' src= {jquery}/>
-                                        <img alt="postgres" className='langs' src= {postgres}/>
-                                        <img alt="react" className='langs' src= {react}/>
+                                        <div>
+                                        <img alt="hackbright" id='hackbright-logo'src={hackbright}/>
+                                        <div className="degree">
+                                            <h4 className="school">Full-time Software Engineering Program </h4>
+                                            <h5 className="meta">Hackbright Academy</h5>
+                                            <div className="time">March 2018</div>
+                                        </div>
+                                        </div>
+
+                                        <img alt="SFSU" id='sfsu-logo'src={sfsu}/>
+                                        <div className="degree">
+                                            <h4 className="school">BA in Recreation, Travel & Tourism Management</h4>
+                                            <h5 className="meta">San Francisco State University</h5>
+                                            <div className="time">2010</div>
+                                        </div>
                                     </div>
-                                        <div className="education-container container-block">
-                                            <h2 className="container-block-title ed">Education</h2>
-
-                                            <div>
-                                            <img alt="hackbright" id='hackbright-logo'src={hackbright}/>
-                                            <div className="degree">
-                                                <h4 className="school">Full-time Software Engineering Program </h4>
-                                                <h5 className="meta">Hackbright Academy</h5>
-                                                <div className="time">March 2018</div>
-                                            </div>
-                                            </div>
-
-                                            <img alt="SFSU" id='sfsu-logo'src={sfsu}/>
-                                            <div className="degree">
-                                                <h4 className="school">BA in Recreation, Travel & Tourism Management</h4>
-                                                <h5 className="meta">San Francisco State University</h5>
-                                                <div className="time">2010</div>
-                                            </div>
-
-                                        </div>
-                                        <div></div>
-
-                                        <div className="interests-container container-block">
-                                            <h2 className="container-block-title">Interests</h2>
-                                            <ul className="interests list-unstyled interests-list">
-                                                <li>❄️ Snowboarding ❄️ | 🌊 Surfing 🌊 | 🚤 Wakeboarding 🚤 | ⛺ Camping ⛺ | 🏔️ Climbing 🏔️ | 🌎 Travel 🌍</li>
-                                            </ul>
-                                        </div>
+                                    <div className="interests-container container-block">
+                                        <h2 className="container-block-title">Interests</h2>
+                                        <ul className="interests list-unstyled interests-list">
+                                            <li>❄️ Snowboarding ❄️ | 🌊 Surfing 🌊 | 🚤 Wakeboarding 🚤 | ⛺ Camping ⛺ | 🏔️ Climbing 🏔️ | 🌎 Travel 🌍</li>
+                                        </ul>
                                     </div>
                                 </div>
                         </section>

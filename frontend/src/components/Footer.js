@@ -10,7 +10,7 @@ import react from './../images/react.png';
 class Footer extends Component {
     render() {
         return (          
-        <div className='text-center'>
+        <div className='main text-center'>
             <h4>This site was created using</h4>
             <img src={ react } alt='react' className='logos'/>
             <img src={ js } alt='js' className='logos'/>
