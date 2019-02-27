@@ -1,0 +1,35 @@
+
+version: "2"
+services:
+  frontend:
+    build:
+       context: frontend
+    environment:
+      - SERVER_URL=localhost:8080
+      - DOCKER_HOST=https://jadehayes.herokuapp.com/
+    ports:
+      - "3000:3000"
+    networks:
+      - onboarder
+    depends_on:
+      - backend
+  backend:
+    build:
+      context: backend
+    environment:
+      - EMAIL=jade.e.hayes@gmail.com
+      - WERKZEUG_DEBUG_PIN="off"
+    ports:
+      - "8080:8080"
+    networks:
+      - onboarder
+  nginx:
+    build:
+      context: nginx
+    ports:
+      - "8081:8081"
+    networks:
+      - onboarder
+
+networks:
+  onboarder:
