@@ -101,13 +101,13 @@ class Resume extends Component {
                                 <div className="item">
                                     <div className="meta">
                                         <div className="upper-row">
-                                            <h3 className="job-title">Profesional Muay Thai Competitor</h3>
+                                            <h3 className="job-title">Profesional Muay Thai Fighter</h3>
                                             <div className="time">2013 - 2016</div>
                                         </div>
                                         <div className="company">World Team USA, San Francisco</div>
                                     </div>
                                     <div className="details">
-                                           <p> As a professional Muay Thai competitor, I traveled to international competitions to represent the United States. </p>
+                                           <p> As a professional Muay Thai Fighter, I traveled to international competitions to represent the United States. </p>
                                            <p> - Built a corporate structure Muay Thai Program at Club Genentech with goal of exceeding expectations of club members and participants.</p>
                                            <p> - Promoted Muay Thai through competition, modeling and film. </p>
                                            <p> - Instilled a passion for Muay Thai and served as a positive role model in a team atmosphere.</p>

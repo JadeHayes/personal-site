@@ -23,9 +23,8 @@
   margin-top: 3em;
 }
 
-.bubbles {
-  height: 100vh;
-  margin: 0;
+#tech-stack {
+  height: 80vh;
 }
 
 iframe {
@@ -276,3 +275,4 @@ a:hover, a:focus, a:active {
     margin-top: 80px;
     margin-bottom: 50px;
 }
+
