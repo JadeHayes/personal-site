@@ -1,8 +1,9 @@
-version: "2"
+version: '2'
 services:
   frontend:
     build:
        context: frontend
+       dockerfile: Dockerfile
     environment:
       - SERVER_URL=localhost:8080
     volumes:
@@ -10,12 +11,13 @@ services:
     ports:
       - "3000:3000"
     networks:
-      - bridge
+      - web_nw
     depends_on:
       - backend
   backend:
     build:
       context: backend
+      dockerfile: Dockerfile
     environment:
       - EMAIL=jade.e.hayes@gmail.com
       - WERKZEUG_DEBUG_PIN="off"
@@ -24,13 +26,18 @@ services:
     ports:
       - "8080:8080"
     networks:
-      - bridge
+      - web_nw
   nginx:
     build:
       context: nginx
+      dockerfile: Dockerfile.prod
+    depends_on:
+      - frontend
+      - backend
     ports:
       - "8081:8081"
     networks:
-      - bridge
+      - web_nw
 networks:
-  bridge:
+    web_nw:
+        driver: bridge
