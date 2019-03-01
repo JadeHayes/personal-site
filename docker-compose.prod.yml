@@ -35,7 +35,7 @@ services:
       - frontend
       - backend
     ports:
-      - "8081:8081"
+      - "443:8081"
     networks:
       - web_nw
 networks:
