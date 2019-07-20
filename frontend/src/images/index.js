@@ -7,6 +7,7 @@ export '/HTML5.png';
 export '/javascript.png';
 export '/nodejs.png';
 export '/react.png';
+export '/docker.png';
 export '/mtn.png';
 
 export '/resume_langs/d3.png';

@@ -5,14 +5,6 @@ import hackbright from './../images/hackbright.png';
 import sfsu from './../images/SFSU.png';
 
 
-import d3 from './../images/resume_langs/d3.png';
-import flask from './../images/resume_langs/flask-sqlalchemy.png';
-import html_css_js from './../images/resume_langs/HTML5_CSS_JavaScript.png';
-import jquery from './../images/resume_langs/jquery.gif';
-import postgres from './../images/resume_langs/postgresql-logo.png';
-import python from './../images/resume_langs/python.png';
-import react from './../images/resume_langs/react.png';
-
 class Resume extends Component {
     render() {
         return (
@@ -20,11 +12,10 @@ class Resume extends Component {
                 <div className='main'>
                         <div className="sidebar-wrapper">
                             <div className="profile-container">
-
                                 <a href='https://www.linkedin.com/in/jade-hayes/' className='linkedin-button'><span><img alt="Linkedin"  src={linkedin}/></span></a>
                                 <a href='https://github.com/JadeHayes' className='github-button'><span><img alt="github" src={github}/></span></a>
                                 <h3 className="tagline">
-                                    Full Stack Developer</h3>
+                                    Full Stack Software Engineer</h3>
                             </div>
 
                         <div className="main-wrapper">

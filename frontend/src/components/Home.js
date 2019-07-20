@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+// import Technologies from './Technologies'
 
 class Home extends Component {
     render() {
